@@ -1,0 +1,21 @@
+{
+  "name": "node-mongo-project",
+  "version": "1.0.0",
+  "description": "Node Mongo Project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Dr",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.14",
+    "nodemon": "^1.18.9",
+    "npm": "^6.4.1",
+    "parser": "^0.1.4",
+    "save": "^2.3.3"
+  }
+}
