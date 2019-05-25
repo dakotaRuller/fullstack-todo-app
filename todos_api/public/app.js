@@ -34,7 +34,7 @@ let addItem = item => {
 };
 
 let addToPage = todo => {
-    todo.forEach(newItem => addItem(newItem));
+    todo.map(newItem => addItem(newItem));
 };
 
 let createItem = () => {

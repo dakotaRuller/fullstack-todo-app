@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab020746-ceaa-42d9-94d5-df58915335d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/todo-frontent/src/Components/AddTodo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-frontent" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo-frontent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-frontent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontent/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo-frontent/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontent/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-frontent/src/Components/TodoApp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-frontent/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo-frontent/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo-frontent/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_api/helpers/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/todos_api/helpers/todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/todos_api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/todos_api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/todos_api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todos_api/public/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/todos_api/public/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,36 +26,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todo-frontent/src/App.js">
+        <entry file="file://$PROJECT_DIR$/todo-frontent/src/Components/TodoItems.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="395">
+              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="n#!!block;n#loadTodos#0;n#TodoItems#0" />
+                <element signature="n#!!block;n#addTodo#0;n#TodoItems#0" />
+                <element signature="n#!!block;n#removeTodo#0;n#TodoItems#0" />
+                <element signature="n#!!block;n#toggleCompleted#0;n#TodoItems#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todo-frontent/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="24">
-                <caret column="76" lean-forward="true" selection-start-column="76" selection-end-column="76" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/todo-frontent/src/Components/TodoItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/todo-frontent/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/todo-frontent/src/Components/AddTodo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo-frontent/src/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>require('e</find>
+      <find>todoInput</find>
+      <find>toggleCompleted</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/todo-frontent" />
@@ -56,6 +93,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/todo-frontent/README.md" />
+        <option value="$PROJECT_DIR$/todo-frontent/src/App.js" />
+        <option value="$PROJECT_DIR$/todo-frontent/src/Components/TodoApp.js" />
+        <option value="$PROJECT_DIR$/todos_api/helpers/todo.js" />
+        <option value="$PROJECT_DIR$/todo-frontent/package.json" />
+        <option value="$PROJECT_DIR$/todos_api/index.js" />
+        <option value="$PROJECT_DIR$/todos_api/public/app.js" />
+        <option value="$PROJECT_DIR$/todo-frontent/src/api.js" />
+        <option value="$PROJECT_DIR$/todo-frontent/src/Components/TodoItem.js" />
+        <option value="$PROJECT_DIR$/todo-frontent/src/Components/TodoItems.js" />
+        <option value="$PROJECT_DIR$/todo-frontent/src/setupProxy.js" />
+        <option value="$PROJECT_DIR$/todo-frontent/src/API.js" />
+        <option value="$PROJECT_DIR$/todo-frontent/src/index.css" />
+        <option value="$PROJECT_DIR$/todo-frontent/src/Components/AddTodo.js" />
       </list>
     </option>
   </component>
@@ -70,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,11 +128,44 @@
               <item name="fullstack-todo-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="fullstack-todo-app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fullstack-todo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-todo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-frontent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-todo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-todo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="todo-frontent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-todo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-todo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="todos_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-todo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-todo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="todos_api" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-todo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-todo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="todos_api" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fullstack-todo-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fullstack-todo-app" type="462c0819:PsiDirectoryNode" />
+              <item name="todos_api" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -90,6 +174,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.npm-global/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,24 +198,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558481615473</updated>
-      <workItem from="1558481616916" duration="608000" />
+      <workItem from="1558481616916" duration="6792000" />
+      <workItem from="1558568152198" duration="19275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="608000" />
+    <option name="totallyTimeSpent" value="26067000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Quokka" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -138,6 +220,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Quokka" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -147,14 +234,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/todo-frontent/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/todo-frontent/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/todo-frontent/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -166,8 +247,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo-frontent/.gitignore">
+    <entry file="file://$PROJECT_DIR$/todo-frontent/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="17574" column="17" selection-start-line="17574" selection-start-column="17" selection-end-line="17574" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-frontent/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos_api/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos_api/models/todo.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos_api/helpers/todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518">
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos_api/routes/todos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-frontent/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos_api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos_api/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todos_api/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-frontent/src/setupProxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-frontent/src/API.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+          <folding>
+            <element signature="n#!!block;n#getTodos#1" />
+            <element signature="n#!!block;n#addTodos#1" />
+            <element signature="n#!!block;n#removeTodos#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-frontent/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-frontent/src/Components/TodoItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-frontent/src/Components/TodoItems.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#loadTodos#0;n#TodoItems#0" />
+            <element signature="n#!!block;n#addTodo#0;n#TodoItems#0" />
+            <element signature="n#!!block;n#removeTodo#0;n#TodoItems#0" />
+            <element signature="n#!!block;n#toggleCompleted#0;n#TodoItems#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo-frontent/src/Components/AddTodo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

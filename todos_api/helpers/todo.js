@@ -12,7 +12,6 @@ exports.getItems = (req, res) => {
 
 
 exports.createItem = (req, res) => {
-    console.log(req.body);
     db.Todo.create(req.body)
         .then(function(newTodo) {
             res.status(201).json(newTodo);
