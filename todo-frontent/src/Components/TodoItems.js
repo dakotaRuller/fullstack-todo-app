@@ -45,7 +45,8 @@ class TodoItems extends Component {
   ));
     return (
       <div>
-        <h3>Todo App</h3>
+        <h1 className="header"><span className="header-thin">Todo</span> App</h1>
+        <p className="small-header">Lets get your life on track</p>
         <AddTodo addTodo={this.addTodo}/>
         <ul className="todo-list">
           {todos}

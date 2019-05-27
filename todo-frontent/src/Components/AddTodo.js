@@ -33,7 +33,7 @@ class AddTodo extends Component {
           onChange={this.handleChange}
           onKeyPress={e => (e.which === 13 ? this.handleSubmit() : null)}
           placeholder="Add your todo item"/>
-        <button className="submit-button" onClick={this.handleSubmit}>- Add Item -</button>
+        <button className="submit-button" onClick={this.handleSubmit}>Add Item</button>
       </div>
     );
   }
