@@ -1,20 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,700&display=swap');
-
-:root {
-  --black-background-color: #000;
-  --grey-color: #737373;
-  --dark-grey-color: #565656;
-  --white-font-color: #fff;
-  --red-color: #77141d;
-}
+@import "variables";
 
 body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--black-background-color);
-  color: var(--white-font-color);
+  transition: all $theme-transition-timing;
 }
 
 /* completed todo item */
@@ -23,29 +15,97 @@ span.line-through p {
   text-decoration: line-through;
   opacity: 0.8;
 }
+/* Theme Switcher */
+div.theme-switcher {
+  display: flex;
+  justify-content: flex-end;
+  height: 2.5em;
+  padding: 10px;
+}
+
+div.theme-switcher button {
+  opacity: 0.75;
+  transition: all 0.5s;
+}
+
+div.theme-switcher button:hover {
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+div.theme-switcher button.dark-theme-button:hover {
+  opacity: 0.6;
+  transition: all 0.5s;
+}
+
+div.theme-switcher button:focus {
+  outline: none;
+}
+
+button.light-theme-button a, button.dark-theme-button a {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button.light-theme-button a {
+  text-decoration: none;
+  color: #000;
+}
+
+button.light-theme-button a:visited {
+  color: #000;
+}
+
+button.dark-theme-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button.dark-theme-button a:visited {
+  color: #fff;
+}
+
+button.light-theme-button {
+  border: 2px solid #000;
+  background: #fff;
+  color: #000;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+button.dark-theme-button {
+  border: 2px solid #fff !important;
+  background: #000;
+  color: #fff !important;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
 
 /* todo item list and individual todo items */
 h1.header {
   font-size: 50px;
   font-weight: 700;
-  color: var(--red-color);
+  transition: all $theme-transition-timing;
 }
 
 h1.header span.header-thin {
   font-weight: 300;
-  color: var(--white-font-color);
+  transition: all $theme-transition-timing;
 }
 
 p.small-header {
   font-size: 18px;
   letter-spacing: 1px;
-  color: var(--dark-grey-color);
+  transition: all $theme-transition-timing;
 }
 
-.todo-list {
+ul.todo-list {
   width: 40%;
   margin: 15px auto;
-  color: var(--black-background-color);
 }
 
 li.todo-list-item {
@@ -54,11 +114,10 @@ li.todo-list-item {
   align-items: center;
   min-height: 1.8em;
   padding: 5px 20px;
-  background-color: var(--grey-color);
   border-radius: 10px;
   margin: 15px;
   opacity: 0.8;
-  transition: all 0.6s;
+  transition: all $theme-transition-timing;
 }
 
 li.todo-list-item:hover {
@@ -70,12 +129,11 @@ span.todo-text {
   height: 100%;
   width: 90%;
   text-align: start;
+  cursor: pointer;
 }
-
 
 li span.remove-todo {
   font-weight: 100;
-  color: var(--red-color);
   opacity: 0.75;
   cursor: pointer;
   transition: all 0.3s;
@@ -103,9 +161,7 @@ input.todo-input {
   font-size: 20px;
   padding: 5px;
   border: none;
-  border-bottom: 1px solid var(--white-font-color);
-  color: var(--white-font-color);
-  background-color: var(--black-background-color);
+  background-color: transparent;
   opacity: 0.8;
   transition: all 0.5s;
 }
@@ -122,25 +178,20 @@ input.todo-input:hover {
 
 input.todo-input:focus {
   outline: none;
-  border-bottom-color: var(--red-color);
   transition: all 0.5s;
 }
 
 button.submit-button {
   padding: 10px;
-  border: 2px solid var(--grey-color);
   border-radius: 5px;
   min-height: 1.5em;
   font-size: 20px;
-  color: var(--grey-color);
   background-color: transparent;
   transform: scale(1);
   transition: all 0.5s;
 }
 
 button.submit-button:hover {
-  border: 2px solid var(--red-color);
-  color: var(--white-font-color);
   transform: scale(1.05);
   transition: all 0.5s;
 }

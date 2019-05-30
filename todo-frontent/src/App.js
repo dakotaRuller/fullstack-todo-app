@@ -1,12 +1,22 @@
 import React from 'react';
 import './App.css';
-import TodoItems from "./Components/TodoItems";
+//Components
+import ThemeSwitcher from './Components/ThemeSwitcher';
+import DarkThemeTodoItems from "./Components/DarkThemeTodoItems";
+import LightThemeTodoItems from "./Components/LightThemeTodoItems";
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-        <TodoItems/>
-    </div>
+    <Router>
+      <div className="App">
+        <ThemeSwitcher themePaths={["light", ""]}/>
+        <Switch>
+          <Route path="/" component={DarkThemeTodoItems} exact/>
+          <Route path="/light" component={LightThemeTodoItems}/>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

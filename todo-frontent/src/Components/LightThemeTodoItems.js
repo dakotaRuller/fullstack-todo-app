@@ -2,9 +2,15 @@ import React, {Component} from 'react';
 import TodoItem from './TodoItem';
 import AddTodo from './AddTodo';
 import * as apiCalls from '../API';
+import '../CSS/lightTheme.scss';
+
+(() => {
+  const bodyElement = document.getElementsByTagName("body")[0];
+  bodyElement.setAttribute('style', 'background-color: #fff !important;');
+})();
 
 
-class TodoItems extends Component {
+class LightThemeTodoItems extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -13,7 +19,9 @@ class TodoItems extends Component {
     this.addTodo = this.addTodo.bind(this);
   }
   componentWillMount() {
-    this.loadTodos()
+    this.loadTodos();
+    const bodyElement = document.getElementsByTagName("body")[0];
+    bodyElement.setAttribute('style', 'background-color: #fff !important;');
   }
 
   async loadTodos() {
@@ -42,9 +50,9 @@ class TodoItems extends Component {
         removeTodo={this.removeTodo.bind(this, todo._id)}
         toggleCompleted={this.toggleCompleted.bind(this, todo)}
       />
-  ));
+    ));
     return (
-      <div>
+      <div className="light-theme">
         <h1 className="header"><span className="header-thin">Todo</span> App</h1>
         <p className="small-header">Lets get your life on track</p>
         <AddTodo addTodo={this.addTodo}/>
@@ -56,4 +64,4 @@ class TodoItems extends Component {
   }
 }
 
-export default TodoItems;
+export default LightThemeTodoItems;

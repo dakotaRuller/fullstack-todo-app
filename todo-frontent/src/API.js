@@ -21,7 +21,6 @@ export async function getTodos() {
           throw err;
         }
       }
-      console.log(res.url);
       return res.json();
     })
 }

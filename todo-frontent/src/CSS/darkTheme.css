@@ -1,0 +1,35 @@
+body {
+  background-color: #000000;
+  color: #fff; }
+
+div.dark-theme {
+  /* completed todo item */
+  /* todo item list and individual todo items */
+  /* Input form */ }
+  div.dark-theme span.line-through p {
+    color: #b5b5b5; }
+  div.dark-theme h1.header {
+    color: #77141d; }
+  div.dark-theme h1.header span.header-thin {
+    color: #fff; }
+  div.dark-theme p.small-header {
+    color: #565656; }
+  div.dark-theme .todo-list {
+    color: #000000; }
+  div.dark-theme li.todo-list-item {
+    background-color: #737373; }
+  div.dark-theme li span.remove-todo {
+    color: #77141d; }
+  div.dark-theme input.todo-input {
+    border-bottom: 1px solid #fff;
+    color: #fff; }
+  div.dark-theme input.todo-input:focus {
+    border-bottom-color: #77141d; }
+  div.dark-theme button.submit-button {
+    border: 2px solid #737373;
+    color: #737373; }
+  div.dark-theme button.submit-button:hover {
+    border: 2px solid #77141d;
+    color: #fff; }
+
+/*# sourceMappingURL=darkTheme.css.map */

@@ -1,0 +1,59 @@
+@import "variables";
+
+body {
+  background-color: $dt-black-color;
+  color: $dt-white-color;
+}
+
+div.dark-theme {
+  /* completed todo item */
+  span.line-through p {
+    color: $dt-light-grey-color;
+  }
+
+  /* todo item list and individual todo items */
+  h1.header {
+    color: $dt-red-color;
+  }
+
+  h1.header span.header-thin {
+    color: $dt-white-color;
+  }
+
+  p.small-header {
+    color: $dt-dark-grey-color;
+  }
+
+  .todo-list {
+    color: $dt-black-color;
+  }
+
+  li.todo-list-item {
+    background-color: $dt-med-grey-color;
+  }
+
+  li span.remove-todo {
+    color: $dt-red-color;
+  }
+
+  /* Input form */
+
+  input.todo-input {
+    border-bottom: 1px solid $dt-white-color;
+    color: $dt-white-color;
+  }
+
+  input.todo-input:focus {
+    border-bottom-color: $dt-red-color;
+  }
+
+  button.submit-button {
+    border: 2px solid $dt-med-grey-color;
+    color: $dt-med-grey-color;
+  }
+
+  button.submit-button:hover {
+    border: 2px solid $dt-red-color;
+    color: $dt-white-color;
+  }
+}
